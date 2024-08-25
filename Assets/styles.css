@@ -78,6 +78,7 @@ main{
 }
 
 /* Home section styling */
+
 #welcoming-content-container{
     display: flex;
     justify-content: space-evenly;
@@ -135,15 +136,42 @@ h1{
 /* About section styling */
 
 #about-section {
-    width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
-    margin-top: 50vh;
+    margin-top: 100vh;
+}
+
+.section-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 5vw 50vh 5vw;
+    padding: 5vh 5vw 10vh 5vw;
+}
+
+.about-section-content-container{
+    background-color: #040d1f;
+    border-radius: 40px;
+    width: 90%;
 }
 
 h2 {
     color: #e5e5e5;
     font-size: 3em;
-    max-width: 100%;
-    word-wrap: break-word;
+    font-family: "Roboto", sans-serif;
+
+    margin-bottom: 5vh;
+}
+
+#about-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-text {
+    color: #e5e5e5;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
 }
