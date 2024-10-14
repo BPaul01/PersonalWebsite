@@ -77,6 +77,10 @@ main{
     justify-content: center;
 }
 
+.section {
+    margin-top: 100vh;
+}
+
 /* Home section styling */
 
 #welcoming-content-container{
@@ -135,17 +139,13 @@ h1{
 
 /* About section styling */
 
-#about-section {
-    margin-top: 100vh;
-}
-
 .section-content-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    margin: 0 5vw 50vh 5vw;
+    margin: 0 5vw 5vh 5vw;
     padding: 5vh 5vw 10vh 5vw;
 }
 
@@ -175,3 +175,35 @@ h2 {
     font-size: 1.5em;
     text-align: center;
 }
+
+#skills-and-otherinfo-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    color: #e5e5e5;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+}
+
+#about-info-container {
+    background-color: #040d1f;
+    border-radius: 40px;
+    
+    width: 40vw;
+    margin: 0 5vw 5vh 5vw;
+    padding: 5vh 5vw 5vh 5vw;
+}
+
+h3{
+    margin-bottom: 1.5vh;
+}
+
+ul{
+    margin-bottom: 2.5vh;
+}
+
+.indented {
+    text-indent: 1em;
+}
+
+/* Projects section styling */
