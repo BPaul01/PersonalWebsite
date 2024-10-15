@@ -286,3 +286,61 @@ ul{
 }
 
 /* Contact section styling */
+#contact-section-container {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90%;
+    height: 30vw;
+    height: fit-content;
+    padding: 5vh 2.5vw 5vh 2.5vw;
+
+    margin-bottom: 5vh;
+
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #e5e5e5;
+
+    background-color: #040d1f;
+    border-radius: 40px;
+}
+
+#contact-details-containter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    height: 20vh;
+    width: 40%;
+}
+
+.contact-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 50vw;
+}
+
+.contact-icon{
+    height: 3.5vh;
+    width: auto;
+}
+
+.contact-link{
+    color: #e5e5e5;
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.25em;
+    text-decoration: none;
+    margin-left: 2.5vw;
+}
