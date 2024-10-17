@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    scroll-behavior: smooth;
 }
 
 body{
@@ -24,7 +26,7 @@ body{
 #nav-container{
     position: fixed;
     top: 0;
-    
+
     display: flex;
     width: 100vw;
     height: 10vh;
@@ -142,6 +144,9 @@ h1{
 }
 
 /* About section styling */
+#about-section{
+    scroll-margin-top: 15vh;
+}
 
 .section-content-container {
     display: flex;
@@ -216,9 +221,14 @@ ul{
 }
 
 /* Projects section styling */
+#projects-section{
+    scroll-margin-top: 15vh;
+}
+
 #projects-title {
     text-align: center;
 }
+
 #projects-container {
     display: flex;
     flex-direction: column;
